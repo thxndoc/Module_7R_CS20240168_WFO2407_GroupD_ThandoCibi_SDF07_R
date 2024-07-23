@@ -37,6 +37,10 @@
 
 /* ======= General styles ======= */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: var(--clr-light);
     color: var(--clr-dark);
@@ -176,15 +180,27 @@ header {
     color: var(--clr-accent);
 }
 
+.nav-toggle {
+    padding: .5em;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    z-index: 1000;
+}
+
 .hamburger {
     display: block;
     position: relative;
+    border: none;
 }
 
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: var(--clr-accent);
+    background: var(--clr-dark);
     width: 2em;
     height: 3px;
     border-radius: 1em;
