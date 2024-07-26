@@ -288,7 +288,7 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(./images/services-bg.jpg);
+    background-image: url(../images/services-bg.jpg);
     background-size: cover;
     background-blend-mode: overlay;
     color: var(--clr-light);
