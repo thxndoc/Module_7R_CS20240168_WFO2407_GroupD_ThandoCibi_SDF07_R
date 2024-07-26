@@ -250,9 +250,9 @@ header {
     border-radius: 50%;
 }
 
-.section__subtitle--intro {
-    /* display: inline-block; */
-}
+/* .section__subtitle--intro {
+    display: inline-block;
+} */
 
 @media (min-width: 600px) {
     .intro {
